@@ -1,4 +1,4 @@
-const targetUrl = "Target";
+const targetUrl = "Target URL";
 
 // Creat Alarm That Will Start After 5 Min And Will Work Every 5 Min
 chrome.alarms.create("keepAlive", { delayInMinutes: 5, periodInMinutes: 5 });
