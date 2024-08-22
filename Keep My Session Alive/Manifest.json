@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Keep My Session Alive",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "alarms",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
